@@ -1,0 +1,13 @@
+{
+  "lastUpdate": "2022-12-22T22:24:59.064+09:00",
+  "index": [
+    {
+      "title": "テスト",
+      "description": "テスト",
+      "category": "お知らせ",
+      "categoryId":"news",
+      "updateTime": "2022-12-22T22:24:59.064+09:00",
+      "notificationId":"1"
+    }
+  ]
+}
