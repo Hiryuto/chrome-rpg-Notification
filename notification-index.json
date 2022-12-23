@@ -34,7 +34,7 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796620,
-      "notificationId": "3",
+      "notificationId": "4",
       "more": true
     },
     {
@@ -43,7 +43,7 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796980,
-      "notificationId": "3",
+      "notificationId": "5",
       "more": false
     },
     {
@@ -52,7 +52,7 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671801248,
-      "notificationId": "3",
+      "notificationId": "6",
       "more": false
     },
     {
@@ -61,7 +61,7 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671802942,
-      "notificationId": "4",
+      "notificationId": "7",
       "more": true
     },
     {
@@ -70,7 +70,7 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671803665,
-      "notificationId": "4",
+      "notificationId": "8",
       "more": true
     }
   ]
