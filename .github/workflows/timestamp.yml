@@ -39,5 +39,5 @@ jobs:
             git add .
             git commit -m "タイムスタンプを記載" -a
             git pull
-            git push origin main
+            git push origin alpha
           fi
