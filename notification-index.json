@@ -1,5 +1,5 @@
 {
-  "lastUpdate": TIMESTAMP,
+  "lastUpdate": 1671801248,
   "index": [
     {
       "title": "テスト",
@@ -46,7 +46,7 @@
       "description": "これはGithubActionsのテストです",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": TIMESTAMP,
+      "updateTime": 1671801248,
       "notificationId": "3"
     }
   ]
