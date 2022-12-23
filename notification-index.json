@@ -7,7 +7,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671715499,
-      "notificationId": "1"
+      "notificationId": "1",
+      "more": false
     },
     {
       "title": "お知らせ画面の複数個テスト",
@@ -15,7 +16,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671715499,
-      "notificationId": "2"
+      "notificationId": "2",
+      "more": true
     },
     {
       "title": "更新頻度確認",
@@ -23,7 +25,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796020,
-      "notificationId": "3"
+      "notificationId": "3",
+      "more": false
     },
     {
       "title": "更新時刻をUNIXに変更",
@@ -31,7 +34,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796620,
-      "notificationId": "3"
+      "notificationId": "3",
+      "more": true
     },
     {
       "title": "文字列じゃだめらしい",
@@ -39,7 +43,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796980,
-      "notificationId": "3"
+      "notificationId": "3",
+      "more": false
     },
     {
       "title": "GITHUBが勝手に更新時刻を記載してくれるはず",
@@ -47,7 +52,8 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671801248,
-      "notificationId": "3"
+      "notificationId": "3",
+      "more": false
     }
   ]
 }
