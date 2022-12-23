@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1671801248,
+  "lastUpdate": TIMESTAMP,
   "index": [
     {
       "title": "テスト",
@@ -54,6 +54,15 @@
       "updateTime": 1671801248,
       "notificationId": "3",
       "more": false
+    },
+    {
+      "title": "現状確認(テスト)",
+      "description": "現在のコードで正しく表示されるかを確認",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": TIMESTAMP,
+      "notificationId": "4",
+      "more": true
     }
   ]
 }
