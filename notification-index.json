@@ -5,9 +5,17 @@
       "title": "テスト",
       "description": "テスト",
       "category": "お知らせ",
-      "categoryId":"news",
+      "categoryId": "news",
       "updateTime": "2022-12-22T22:24:59.064+09:00",
-      "notificationId":"1"
+      "notificationId": "1"
+    },
+    {
+      "title": "お知らせ画面の複数個テスト",
+      "description": "テスト2",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": "2022-12-22T22:24:59.064+09:00",
+      "notificationId": "2"
     }
   ]
 }
