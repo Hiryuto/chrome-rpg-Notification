@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "1671796620",
+  "lastUpdate": 1671796980,
   "index": [
     {
       "title": "テスト",
       "description": "テスト",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": "1671715499",
+      "updateTime": 1671715499,
       "notificationId": "1"
     },
     {
@@ -14,7 +14,7 @@
       "description": "テスト2",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": "1671715499",
+      "updateTime": 1671715499,
       "notificationId": "2"
     },
     {
@@ -22,7 +22,7 @@
       "description": "更新頻度がどのくらいなのかを確認するためのテストのお知らせです",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": "1671796020",
+      "updateTime": 1671796020,
       "notificationId": "3"
     },
     {
@@ -30,7 +30,15 @@
       "description": "更新時刻をUNIXに変更してもちゃんと機能するかの検証",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": "1671796620",
+      "updateTime": 1671796620,
+      "notificationId": "3"
+    },
+    {
+      "title": "文字列じゃだめらしい",
+      "description": "更新時刻を文字列から数値に変更",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": 1671796980,
       "notificationId": "3"
     }
   ]
