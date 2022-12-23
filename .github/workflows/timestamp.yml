@@ -1,8 +1,43 @@
 name: 更新時刻を記載する
 on: 
   push:
+defaults:
+  run:
+    working-directory: ./
 jobs:
-  Replace_strings_in_the_file_with_the_current_time:
+  Write-Timestamp:
     runs-on: ubuntu-latest
     steps:
-      - run: sed 's/TIMESTAMP/'$(date +%s)'/g' file.txt > newfile.txt
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: ファイルが存在するかの確認
+        id: check_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "notification-index.json"
+      - name: 書き込み
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: sed -i 's/TIMESTAMP/'$(date +%s)'/g' notification-index.json
+      - name: Diff
+        id: diff
+        run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+      - name: gitの設定
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      - name: コミット
+        if: steps.check_files.outputs.files_exists == 'true'
+        run: |
+          if ! git diff --exit-code --quiet
+          then
+            git add .
+            git commit -m "タイムスタンプを記載" -a
+            git pull
+            git push origin main
+          fi
