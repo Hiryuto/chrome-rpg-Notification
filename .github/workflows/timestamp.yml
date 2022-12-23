@@ -19,7 +19,7 @@ jobs:
           files: "notification-index.json"
       - name: 書き込み
         if: steps.check_files.outputs.files_exists == 'true'
-        run: sed -i 's/TIMESTAMP/'$(date +%s)'/g' notification-index.json
+        run: sed -i 's/\"TIMESTAMP\"/'$(date +%s)'/g' notification-index.json
       - name: Diff
         id: diff
         run: |
