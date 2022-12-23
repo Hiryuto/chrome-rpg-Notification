@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "TIMESTAMP",
+  "lastUpdate": 1671803665,
   "index": [
     {
       "title": "テスト",
@@ -69,7 +69,7 @@
       "description": "多分治ってるはず",
       "category": "お知らせ",
       "categoryId": "news",
-      "updateTime": "TIMESTAMP",
+      "updateTime": 1671803665,
       "notificationId": "4",
       "more": true
     }
