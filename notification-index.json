@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1671802942,
+  "lastUpdate": "TIMESTAMP",
   "index": [
     {
       "title": "テスト",
@@ -61,6 +61,15 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671802942,
+      "notificationId": "4",
+      "more": true
+    },
+    {
+      "title": "TIMESTAMPのエラー修正",
+      "description": "多分治ってるはず",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": "TIMESTAMP",
       "notificationId": "4",
       "more": true
     }
