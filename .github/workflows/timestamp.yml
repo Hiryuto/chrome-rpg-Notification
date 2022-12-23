@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          ref: main
+          ref: dev
       - name: ファイルが存在するかの確認
         id: check_files
         uses: andstor/file-existence-action@v1
