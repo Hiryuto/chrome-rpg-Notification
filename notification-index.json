@@ -16,6 +16,14 @@
       "categoryId": "news",
       "updateTime": "2022-12-22T22:24:59.064+09:00",
       "notificationId": "2"
+    },
+    {
+      "title": "更新頻度確認",
+      "description": "更新頻度がどのくらいなのかを確認するためのテストのお知らせです",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": "2022-12-23T20:47:00.000+09:00",
+      "notificationId": "3"
     }
   ]
 }
