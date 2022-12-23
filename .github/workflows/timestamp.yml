@@ -5,7 +5,7 @@ defaults:
   run:
     working-directory: ./
 jobs:
-  Replace_strings_in_the_file_with_the_current_time:
+  Write-Timestamp:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
