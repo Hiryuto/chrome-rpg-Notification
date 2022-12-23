@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1671796980,
+  "lastUpdate": TIMESTAMP,
   "index": [
     {
       "title": "テスト",
@@ -39,6 +39,14 @@
       "category": "お知らせ",
       "categoryId": "news",
       "updateTime": 1671796980,
+      "notificationId": "3"
+    },
+    {
+      "title": "GITHUBが勝手に更新時刻を記載してくれるはず",
+      "description": "これはGithubActionsのテストです",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": TIMESTAMP,
       "notificationId": "3"
     }
   ]
