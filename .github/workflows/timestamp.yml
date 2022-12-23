@@ -5,4 +5,4 @@ jobs:
   Replace_strings_in_the_file_with_the_current_time:
     runs-on: ubuntu-latest
     steps:
-      - run: sed 's/TIMESTAMP/'$(date +%s)'/g' file.txt > newfile.txt
+      - run: sed 's/TIMESTAMP/'$(date +%s)'/g' $ISSUE_NUM/notification-index.json > $ISSUE_NUM/notification-index.json
