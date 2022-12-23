@@ -1,0 +1,8 @@
+name: 更新時刻を記載する
+on: 
+  push:
+jobs:
+  Replace_strings_in_the_file_with_the_current_time:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sed 's/TIMESTAMP/'$(date +%s)'/g' file.txt > newfile.txt
