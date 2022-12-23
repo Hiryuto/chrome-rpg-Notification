@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1671803665,
+  "lastUpdate": "TIMESTAMP",
   "index": [
     {
       "title": "テスト",
@@ -72,6 +72,24 @@
       "updateTime": 1671803665,
       "notificationId": "8",
       "more": true
+    },
+    {
+      "title": "test1",
+      "description": "test1",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": "TIMESTAMP",
+      "notificationId": "9",
+      "more": false
+    },
+    {
+      "title": "test2",
+      "description": "test2",
+      "category": "お知らせ",
+      "categoryId": "news",
+      "updateTime": "TIMESTAMP",
+      "notificationId": "10",
+      "more": false
     }
   ]
 }
