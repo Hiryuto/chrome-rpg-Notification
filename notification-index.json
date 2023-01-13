@@ -1,4 +1,14 @@
 {
-  "lastUpdate": "null",
-  "index": []
+  "lastUpdate": 1673588150,
+  "index": [
+    {
+      "title": "sample",
+      "description": "お知らせのテンプレート",
+      "category": "テンプレート",
+      "categoryId": "template",
+      "updateTime": 1673588150,
+      "notificationId": "-1",
+      "more": true
+    }
+  ]
 }
